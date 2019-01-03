@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="img/logo.png">
+    <title>Pemerintah Kabupaten Kudus - Portal Informasi Resmi</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="responsive.css" media="all">
+    <script src="javascript.js"></script>
+  </head>
+  <body id="ganti">
+    <section id="container">
+        <header id="header-portal">
+            <div class="logo">
+                <a href="index.html">
+                    <img id="logo-portal" src="img/logo-portal-2.png" alt="Pemerintah Kabupaten Kudus">
+                </a>
+            </div>
+        </header>
+        <main id="main-portal">
+            <center>
+                <form action="login.php" method="GET" onsubmit="klik()">
+                    <div id="form">
+                        <div>
+                            <label>Username:</label>
+                            <input type="text" name="nama" id="nama" />
+                        </div>
+                        
+                        <div>
+                            <label>Email:</label>
+                            <input type="email" name="email" id="email" />
+                        </div>
+                                    
+                        <div>
+                            <label>Password:</label>
+                            <input type="password" name="password" id="password" />
+                        </div>
+                        <div>
+                            <input type="submit" value="Daftar" class="tombol">
+                            <input type="reset" value="reset">
+                        </div>
+                    </div>
+                </form>
+            </center>
+        </main>
+        <footer class="footer">
+            <div>
+                <h3>ganti background</h3>
+                <button id="buttonbg" onclick="gantibackground()">background 2</button>
+            </div>
+            UAS Pemrograman Berbasis web    Fahmi Afianto A11.2017.10587
+        </footer>
+    </section>
+  </body>
+</html>
